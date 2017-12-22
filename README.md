@@ -1,2 +1,2 @@
-# yogi, my home page
+# yogi, [my home page](https://github.com/mymultiverse)
 # yogi
