@@ -410,8 +410,21 @@ Various activities for schools children during a visit have been evolved:
 
           
         </td>       <td class="wsite-multicol-col" style="width:50%; padding:0 15px;">
+	      <script src="https://maps.googleapis.com/maps/api/js"></script>
+<script>
+function initialize() {
+ var mapProp = {
+   center:new google.maps.LatLng(19.137002, 72.911553),
+   zoom:15,
+   mapTypeId:google.maps.MapTypeId.ROADMAP
+ };
+ var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
           
             
+<!---
 
 <script src="https://maps.googleapis.com/maps/api/js"></script>
 <script>
@@ -425,6 +438,10 @@ function initialize() {
 }
 google.maps.event.addDomListener(window, 'load', initialize);
 </script>
+-->
+	   
+
+
 </head>
 
 <body>
